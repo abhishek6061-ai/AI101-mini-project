@@ -11,7 +11,7 @@ AI101 Mini-Project, IIT Ropar | Team [group number]
 | [Your name] | abhishek6061-ai | Documentation lead |
 | [Name] | [username] | Execution lead |
 | [Name] | [username] | PPT lead |
-| [Name] | [username] | Video lead |
+| shivansh | shivansh-009 | Video lead |
 
 All members contributed code to the project.
 
