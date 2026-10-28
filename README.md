@@ -1,8 +1,8 @@
-# [Project title, e.g. Predicting Concrete Compressive Strength Using Linear Regression]
+# [Project title,Predicting Home Loan Approval from Applicant Income, Credit card average score,mortgage Amount and  Using Logistic Regression]
 
 [One line: what the project predicts, from which dataset, using which model.]
 
-AI101 Mini-Project, IIT Ropar | Team [group number]
+AI101 Mini-Project, IIT Ropar | Team [51]
 
 ## Team and Roles
 
@@ -19,8 +19,8 @@ All members contributed code to the project.
 
 - **Problem:** [Loan Approval ]
 - **Dataset:** [Predicting Home Loan Approval from Applicant Income, Credit card average score,mortgage Amount]; file: https://www.kaggle.com/datasets/vikramamin/bank-loan-approval-lr-dt-rf-and-auc
-- **Size:** [rows x columns]
-- **Target variable:** [column name]
+- **Size:** [5000 rows x 14 columns]
+- **Target variable:** [Personal Loan (Binary: 1 for approved/accepted, 0 for rejected/not accepted)]
 - **Task:** [Logistic regression]
 
 ## Project Structure
@@ -30,7 +30,7 @@ AI101-mini-project/
 ├── README.md                 # this file
 ├── requirements.txt          # Python libraries
 ├── data/
-│   └── [filename].csv        # dataset used
+│   └── [banlloan].csv        # dataset used
 ├── notebooks/
 │   └── [main].ipynb          # full code: preprocessing, training, evaluation
 ├── results/                  # plots and output screenshots
@@ -40,12 +40,10 @@ AI101-mini-project/
 
 ## Setup
 
-- Python version: [e.g. 3.10 or higher]
-- Install libraries:
-
-```
-pip install -r requirements.txt
-```
+- Python version: [3.14.6]
+- **Install libraries:**
+  ```bash
+  pip install -r requirements.txt
 
 ## How to Run
 
