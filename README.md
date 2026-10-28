@@ -6,33 +6,36 @@ AI101 Mini-Project, IIT Ropar | Team [group number]
 
 ## Team and Roles
 
-| Name | GitHub | Role |
+| Name | GitHub | Role | Entry No. |
 |---|---|---|
-| [Your name] | abhishek6061-ai | Documentation lead |
-| [Name] | [username] | Execution lead |
-| [shobhan] | [shobhan-vn] | PPT lead |
-| shivansh | shivansh-009 | Video lead |
+| [Abhishek Yadav] | abhishek6061-ai | Documentation lead | 2026AIB1003 |
+| [Rajveer Dabi] | [rajveer-mcb] | Execution lead | 2026MCB1558 |
+| [Shobhan] | [shobhan-vn] | PPT lead | 2026EEB1423 |
+| [Shivansh] | [shivansh-009] | Video lead | 2026EEB1411 |
 
 All members contributed code to the project.
 
 ## Problem and Dataset
 
-- **Problem:** [2 to 3 lines: what you predict and why it matters]
-- **Dataset:** [name and Kaggle link]
+- **Problem:** [Loan Approval ]
+- **Dataset:** [Predicting Home Loan Approval from Applicant Income, Credit card average score,mortgage Amount]; file: https://www.kaggle.com/datasets/vikramamin/bank-loan-approval-lr-dt-rf-and-auc
 - **Size:** [rows x columns]
 - **Target variable:** [column name]
-- **Task:** [Linear regression / Logistic regression]
+- **Task:** [Logistic regression]
 
 ## Project Structure
 
 ```
 AI101-mini-project/
-├── README.md
-├── requirements.txt
-├── data/        # dataset (or download instructions)
-├── notebooks/   # analysis and model code
-├── results/     # plots and output screenshots
-└── slides/      # 5-slide presentation
+├── README.md                 # this file
+├── requirements.txt          # Python libraries
+├── data/
+│   └── [filename].csv        # dataset used
+├── notebooks/
+│   └── [main].ipynb          # full code: preprocessing, training, evaluation
+├── results/                  # plots and output screenshots
+└── slides/
+    └── [filename].pdf        # 5-slide presentation
 ```
 
 ## Setup
@@ -50,7 +53,7 @@ pip install -r requirements.txt
 1. Clone the repo: `git clone https://github.com/abhishek6061-ai/AI101-mini-project.git`
 2. `cd AI101-mini-project`
 3. `pip install -r requirements.txt`
-4. [Command or notebook to run, e.g. open notebooks/main.ipynb and Run All]
+4. [e.g. open notebooks/[main].ipynb and Run All]
 
 ## Expected Output
 
@@ -60,12 +63,12 @@ pip install -r requirements.txt
 
 - [Key metric 1, e.g. Test R2 = 0.xx]
 - [Key metric 2]
-- [One-line finding]
+- [One-line interpretation for the problem statement]
 
 ## Slides and Video
 
-- Slides: [link or slides/filename]
-- Video (5 min): [unlisted YouTube or Drive link]
+- Slides (PDF, 5 slides): [link to slides/filename.pdf]
+- Video (3 to 5 minutes, all members speak): [unlisted or public YouTube link]
 
 ## AI Tool Disclosure
 
