@@ -49,7 +49,7 @@ AI101-mini-project/
 
 ### Prerequisites
 - [Git](https://git-scm.com/downloads)
-- [Python 3.9+](https://www.python.org/downloads/)
+- [Python 3.14+](https://www.python.org/downloads/)
 
 ### Steps
 
@@ -78,14 +78,18 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+**4. Go into the notebook folder**
+```bash
+cd notebook
+```
 
-**4. Launch Jupyter Notebook**
+**5. Launch Jupyter Notebook**
 ```bash
 jupyter notebook
 ```
 Your browser will open automatically. If it doesn't, copy the `http://localhost:8888/...` link from the terminal.
 
-**5. Open and run the notebook**
+**6. Open and run the notebook**
 - Click `main.ipynb`
 - Run all cells: **Kernel → Restart & Run All**
   (or press `Shift + Enter` to run cell by cell)
