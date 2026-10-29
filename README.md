@@ -89,7 +89,7 @@ cd notebook
 
 **5. Launch Jupyter Notebook**
 ```bash
-jupyter notebook
+jupyter notebooks
 ```
 Your browser will open automatically. If it doesn't, copy the `http://localhost:8888/...` link from the terminal.
 
