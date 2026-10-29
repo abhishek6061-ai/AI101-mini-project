@@ -60,8 +60,13 @@ cd AI101-mini-project
 ```
 
 **2. Create a virtual environment**
+Windows (Git Bash):
+```bash
+python -m venv venv
+source venv/Scripts/activate
+```
 
-Windows:
+Windows (Command Prompt / PowerShell):
 ```bash
 python -m venv venv
 venv\Scripts\activate
@@ -72,7 +77,6 @@ macOS / Linux:
 python3 -m venv venv
 source venv/bin/activate
 ```
-
 **3. Install dependencies**
 ```bash
 pip install -r requirements.txt
