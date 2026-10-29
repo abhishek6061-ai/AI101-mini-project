@@ -45,13 +45,50 @@ AI101-mini-project/
   ```bash
   pip install -r requirements.txt
 
-## How to Run
+## How to Run the Notebook
 
-[Execution lead fills this in. Exact steps in order, for example:]
-1. Clone the repo: `git clone https://github.com/abhishek6061-ai/AI101-mini-project.git`
-2. `cd AI101-mini-project`
-3. `pip install -r requirements.txt`
-4. [e.g. open notebooks/[main].ipynb and Run All]
+### Prerequisites
+- [Git](https://git-scm.com/downloads)
+- [Python 3.9+](https://www.python.org/downloads/)
+
+### Steps
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/abhishek6061-ai/AI101-mini-project.git
+cd AI101-mini-project
+```
+
+**2. Create a virtual environment**
+
+Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+macOS / Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**3. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+
+**4. Launch Jupyter Notebook**
+```bash
+jupyter notebook
+```
+Your browser will open automatically. If it doesn't, copy the `http://localhost:8888/...` link from the terminal.
+
+**5. Open and run the notebook**
+- Click `main.ipynb`
+- Run all cells: **Kernel → Restart & Run All**
+  (or press `Shift + Enter` to run cell by cell)
 
 ## Expected Output
 
