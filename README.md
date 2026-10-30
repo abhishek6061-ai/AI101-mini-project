@@ -1,41 +1,42 @@
-# [Project title,Predicting Home Loan Approval from Applicant Income, Credit card average score,mortgage Amount and  Using Logistic Regression]
+# Project title: Predicting Home Loan Approval from Applicant Income, Credit card average score,mortgage Amount and  Using Logistic Regression
 
-[One line: what the project predicts, from which dataset, using which model.]
+- Our model uses a customer's details (income, age, credit card spending) to predict whether their personal loan will be approved or not
 
-AI101 Mini-Project, IIT Ropar | Team [51]
+- AI101 Mini-Project, IIT Ropar | Team [51]
 
-## Team and Roles
+## Team,Github ID,Role and Entry No.
 
 | Name | GitHub | Role | Entry No. |
-|---|---|---|
-| [Abhishek Yadav] | abhishek6061-ai | Documentation lead | 2026AIB1003 |
-| [Rajveer Dabi] | [rajveer-mcb] | Execution lead | 2026MCB1558 |
-| [Shobhan] | [shobhan-vn] | PPT lead | 2026EEB1423 |
-| [Shivansh] | [shivansh-009] | Video lead | 2026EEB1411 |
+|---|---|---|---|
+| Abhishek Yadav | abhishek6061-ai | Documentation lead | 2026AIB1003 |
+| Rajveer Dabi | rajveer-mcb | Execution lead | 2026MCB1558 |
+| Shobhan | shobhan-vn | PPT lead | 2026EEB1423 |
+| Shivansh | shivansh-009 | Video lead | 2026EEB1411 |
 
-All members contributed code to the project.
+**All members contributed code to the project.**
 
 ## Problem and Dataset
 
-- **Problem:** [Loan Approval ]
-- **Dataset:** [Predicting Home Loan Approval from Applicant Income, Credit card average score,mortgage Amount]; file: https://www.kaggle.com/datasets/vikramamin/bank-loan-approval-lr-dt-rf-and-auc
-- **Size:** [5000 rows x 14 columns]
-- **Target variable:** [Personal Loan (Binary: 1 for approved/accepted, 0 for rejected/not accepted)]
-- **Task:** [Logistic regression]
+- **Problem:** Loan Approval 
+- **Dataset:** Predicting Home Loan Approval from Applicant Income, Credit card average score,mortgage Amount;
+- file: https://www.kaggle.com/datasets/vikramamin/bank-loan-approval-lr-dt-rf-and-auc
+- **Size:** 5000 rows x 14 columns
+- **Target variable:** Personal Loan (Binary: 1 for approved/accepted, 0 for rejected/not accepted)
+- **Task:** Logistic regression
 
 ## Project Structure
 
 ```
 AI101-mini-project/
-├── README.md                 # this file
-├── requirements.txt          # Python libraries
+├── README.md                 
+├── requirements.txt          
 ├── data/
-│   └── [banlloan].csv        # dataset used
+│   └── [banlloan].csv        
 ├── notebooks/
-│   └── [main].ipynb          # full code: preprocessing, training, evaluation
-├── results/                  # plots and output screenshots
+│   └── [main].ipynb          
+├── results/                  
 └── slides/
-    └── [filename].pdf        # 5-slide presentation
+    └── [filename].pdf        
 ```
 
 ## Setup
@@ -117,4 +118,4 @@ Your browser will open automatically. If it doesn't, copy the `http://localhost:
 
 | Tool | Used for | How we verified it |
 |---|---|---|
-| [e.g. Claude] | [e.g. README structure, debugging] | [e.g. ran the code and checked results ourselves] |
+| Claude | Debugging | Run the code and checked results ourselves |
