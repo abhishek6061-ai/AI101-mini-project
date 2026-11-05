@@ -1,8 +1,7 @@
-# Project title: Predicting Home Loan Approval from Applicant Income, Credit card average score,mortgage Amount and  Using Logistic Regression
+# Project title: Predicting Personal Loan Approval Using Logistic Regression
+- Our model uses a customer's details (income, age, credit card spending, mortgage amount) to predict whether their personal loan will be approved or not.
 
-- Our model uses a customer's details (income, age, credit card spending) to predict whether their personal loan will be approved or not
-
-- AI101 Mini-Project, IIT Ropar | Team [51]
+- AI101 Mini-Project, IIT Ropar | Team 51
 
 ## Team,Github ID,Role and Entry No.
 
@@ -16,10 +15,8 @@
 **All members contributed code to the project.**
 
 ## Problem and Dataset
-
-- **Problem:** Loan Approval 
-- **Dataset:** Predicting Home Loan Approval from Applicant Income, Credit card average score,mortgage Amount;
-- file: https://www.kaggle.com/datasets/vikramamin/bank-loan-approval-lr-dt-rf-and-auc
+- **Problem:** Banks need to decide which customers are likely to be approved for a personal loan. We predict whether a customer's loan is approved (1) or not (0) from details such as income, age, credit card spending and mortgage amount. This can make lending decisions faster and more consistent.
+- **Dataset:** Bank Loan Approval dataset (Kaggle): https://www.kaggle.com/datasets/vikramamin/bank-loan-approval-lr-dt-rf-and-auc
 - **Size:** 5000 rows x 14 columns
 - **Target variable:** Personal Loan (Binary: 1 for approved/accepted, 0 for rejected/not accepted)
 - **Task:** Logistic regression
@@ -31,9 +28,9 @@ AI101-mini-project/
 ├── README.md                 
 ├── requirements.txt          
 ├── data/
-│   └── [banlloan].csv        
+│   └── bankloan.csv        
 ├── notebooks/
-│   └── [main].ipynb          
+│   └── main.ipynb          
 ├── results/                  
 └── slides/
     └── [filename].pdf        
@@ -41,10 +38,12 @@ AI101-mini-project/
 
 ## Setup
 
-- Python version: [3.14.6]
+- Python version: 3.14.6
 - **Install libraries:**
-  ```bash
-  pip install -r requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
 
 ## How to Run the Notebook
 
@@ -85,12 +84,12 @@ pip install -r requirements.txt
 
 **4. Go into the notebook folder**
 ```bash
-cd notebook
+cd notebooks
 ```
 
 **5. Launch Jupyter Notebook**
 ```bash
-jupyter notebooks
+jupyter notebook
 ```
 Your browser will open automatically. If it doesn't, copy the `http://localhost:8888/...` link from the terminal.
 
@@ -104,9 +103,8 @@ Your browser will open automatically. If it doesn't, copy the `http://localhost:
 [Add a screenshot from results/ showing what a correct run looks like.]
 
 ## Results
-
-- [Key metric 1, e.g. Test R2 = 0.xx]
-- [Key metric 2]
+- Accuracy = [0.xx]
+- Precision = [0.xx], Recall = [0.xx], F1 = [0.xx]
 - [One-line interpretation for the problem statement]
 
 ## Slides and Video
