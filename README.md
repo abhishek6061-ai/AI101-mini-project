@@ -129,7 +129,7 @@ Training and validation accuracy come together at about 0.955 to 0.957 as the da
 Training loss and validation loss move towards each other (about 0.12 to 0.13), which also shows the model generalises well.
 
 ### Model coefficients
-![Logistic regression coefficients](results/Coefficients.png)
+![Logistic regression coefficients](results/Logistic_Regression_Coefficients.png)
 
 Income has the largest coefficient, followed by Education_3, Education_2, Family and CD.Account. CCAvg and Mortgage have smaller coefficients.
 
