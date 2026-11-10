@@ -106,12 +106,55 @@ Your browser will open automatically. If it doesn't, copy the `http://localhost:
 
 ## Expected Output
 
-[Add a screenshot from results/ showing what a correct run looks like.]
+Running the notebook produces these plots (copies are saved in `results/`).
+
+### Feature correlation with the target
+![Feature correlation with Personal.Loan](results/Feature_Correlation_with_Personal_Loan.png)
+
+Income (0.50), CCAvg (0.37) and CD.Account (0.32) have the strongest correlation with loan approval. Age, Experience, Online, CreditCard and Securities.Account fall inside the red dotted +/- 0.05 lines, so they are dropped as weak predictors.
+
+### Correlation heatmap
+![Feature correlation heatmap](results/Feature_Correlation_Heatmap.png)
+
+Age and Experience are almost identical (r = 0.99), so Experience is removed as a redundant feature.
+
+### Learning curve
+![Learning curve](results/Learning_Curve.png)
+
+Training and validation accuracy come together at about 0.955 to 0.957 as the data grows. The small gap shows the model is not overfitting, and more data is unlikely to help much.
+
+### Validation loss curve
+![Validation loss curve](results/Validation_Loss_Curve.png)
+
+Training loss and validation loss move towards each other (about 0.12 to 0.13), which also shows the model generalises well.
+
+### Model coefficients
+![Logistic regression coefficients](results/Coefficients.png)
+
+Income has the largest coefficient, followed by Education_3, Education_2, Family and CD.Account. CCAvg and Mortgage have smaller coefficients.
+
+### Confusion matrix (test set)
+![Confusion matrix](results/Confusion_Matrix.png)
+
+895 rejected customers were predicted correctly and 9 were wrongly approved. 64 approved customers were found and 32 were missed.
 
 ## Results
-- Accuracy = [0.xx]
-- Precision = [0.xx], Recall = [0.xx], F1 = [0.xx]
-- [One-line interpretation for the problem statement]
+
+Test set: 1000 customers (20% hold-out).
+
+| Metric | Train | Test |
+|---|---|---|
+| Accuracy | 0.9575 | 0.9590 |
+| Precision | 0.8794 | 0.8767 |
+| Recall | 0.6458 | 0.6667 |
+| F1 Score | 0.7447 | 0.7574 |
+| RMSE | 0.2062 | 0.2025 |
+| ROC AUC | 0.9581 | 0.9587 |
+
+- **Good overall performance:** The model predicts the right outcome for about 96% of customers and separates approved from rejected customers well (ROC AUC = 0.96).
+- **No overfitting:** Train and test scores are almost identical, and the learning and loss curves converge.
+- **Precision vs recall:** When the model predicts "approved", it is right 88% of the time. It finds about 67% of the customers who were actually approved, because only 9.6% of customers in the data are approved.
+- **Features used:** 7 features remain after the correlation rules: Income, Family, CCAvg, Mortgage, CD.Account, Education_2 and Education_3.
 
 ## Slides and Video
 
@@ -122,4 +165,5 @@ Your browser will open automatically. If it doesn't, copy the `http://localhost:
 
 | Tool | Used for | How we verified it |
 |---|---|---|
-| Claude | Debugging | Run the code and checked results ourselves |
+| Claude | Structuring and wording the README, explaining Git and VS Code errors, and splitting the notebook into parts | Ran every command and the full notebook ourselves and compared the README with the actual repo |
+| ChatGPT / other tool, if used | debugging code or explaining concepts | ran the code and compared the results |
