@@ -28,9 +28,15 @@ AI101-mini-project/
 ├── README.md                 
 ├── requirements.txt          
 ├── data/
-│   └── bankloan.csv        
-├── notebooks/
-│   └── main.ipynb          
+│   └── bankloan.csv
+├── notebook/
+    ├── your_notebook.ipynb
+    └── output/
+        ├── Feature Correlation with Personal Loan.png
+        ├── Feature Correlation Heatmap.png
+        ├── ROC Curve.png
+        ├── Validation Loss Curve.png
+        └── Learning Curve.png         
 ├── results/                  
 └── slides/
     └── [filename].pdf        
