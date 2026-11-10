@@ -36,6 +36,7 @@ AI101-mini-project/
     ├── Feature Correlation Heatmap.png
     ├── ROC Curve.png
     ├── Validation Loss Curve.png
+    ├── Confusion Matrix.png
     └── Learning Curve.png                  
 └── slides/
     └── [filename].pdf        
