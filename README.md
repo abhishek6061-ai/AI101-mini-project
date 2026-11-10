@@ -30,14 +30,13 @@ AI101-mini-project/
 ├── data/
 │   └── bankloan.csv
 ├── notebook/
-    ├── your_notebook.ipynb
-    └── output/
-        ├── Feature Correlation with Personal Loan.png
-        ├── Feature Correlation Heatmap.png
-        ├── ROC Curve.png
-        ├── Validation Loss Curve.png
-        └── Learning Curve.png         
-├── results/                  
+    └── your_notebook.ipynb         
+├── results/
+    ├── Feature Correlation with Personal Loan.png
+    ├── Feature Correlation Heatmap.png
+    ├── ROC Curve.png
+    ├── Validation Loss Curve.png
+    └── Learning Curve.png                  
 └── slides/
     └── [filename].pdf        
 ```
