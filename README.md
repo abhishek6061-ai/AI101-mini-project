@@ -159,6 +159,7 @@ Test set: 1000 customers (20% hold-out).
 ## Slides and Video
 
 - Slides (PDF, 5 slides): [Bank Loan Prediction Presentation](slides/bank_loan_approval_prediction_using_logistic_regression_final_2.pdf)
+- If the PDF does not preview on GitHub, click Download to view it
 - Video (3 to 5 minutes, all members speak): [unlisted or public YouTube link]
 
 ## AI Tool Disclosure
