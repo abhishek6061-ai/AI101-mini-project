@@ -22,25 +22,26 @@
 - **Task:** Logistic regression
 
 ## Project Structure
-
 ```
 AI101-mini-project/
-├── README.md                 
-├── requirements.txt          
+├── README.md
+├── requirements.txt
 ├── data/
 │   └── bankloan.csv
-├── notebook/
-    └── your_notebook.ipynb         
+├── notebooks/
+│   └── main.ipynb
 ├── results/
-    ├── Feature Correlation with Personal Loan.png
-    ├── Feature Correlation Heatmap.png
-    ├── ROC Curve.png
-    ├── Validation Loss Curve.png
-    ├── Confusion Matrix.png
-    └── Learning Curve.png                  
+│   ├── Feature_Correlation_with_Personal_Loan.png
+│   ├── Feature_Correlation_Heatmap.png
+│   ├── Learning_Curve.png
+│   ├── Validation_Loss_Curve.png
+│   ├── Confusion_Matrix.png
+│   ├── ROC_Curve.png
+│   └── Logistic_Regression_Coefficients.png
 └── slides/
-    └── Bank Loan Prediction.final_2.pdf      
+    └── bank_loan_approval_prediction_using_logistic_regression_final_2.pdf
 ```
+
 
 ## Setup
 
@@ -167,4 +168,4 @@ Test set: 1000 customers (20% hold-out).
 | Tool | Used for | How we verified it |
 |---|---|---|
 | Claude | Structuring and wording the README, explaining Git and VS Code errors, and splitting the notebook into parts | Ran every command and the full notebook ourselves and compared the README with the actual repo |
-| ChatGPT / other tool, if used | debugging code or explaining concepts | ran the code and compared the results |
+| ChatGPT | Help with the presentation slides | Checked every number and statement against our notebook results, and edited the slides ourselves |
