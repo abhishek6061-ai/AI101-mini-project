@@ -39,7 +39,7 @@ AI101-mini-project/
     ├── Confusion Matrix.png
     └── Learning Curve.png                  
 └── slides/
-    └── [filename].pdf        
+    └── Bank Loan Prediction.final_2.pdf        
 ```
 
 ## Setup
@@ -158,7 +158,7 @@ Test set: 1000 customers (20% hold-out).
 
 ## Slides and Video
 
-- Slides (PDF, 5 slides): [link to slides/filename.pdf]
+- Slides (PDF, 5 slides): [Bank Loan Prediction Presentation](slides/bank_loan_approval_prediction_using_logistic_regression_final_2.pdf)
 - Video (3 to 5 minutes, all members speak): [unlisted or public YouTube link]
 
 ## AI Tool Disclosure
